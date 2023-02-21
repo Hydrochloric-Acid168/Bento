@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'ed984e7ed3a6554b4521e86349f99c86', // Write here your API Key
@@ -133,7 +133,31 @@ const CONFIG = {
 	// ┴─┘┴└─┘ ┴ └─┘
 
 	// First Links Container
-	
+	firstlistsContainer: [
+		{
+			icon: 'coffee',
+			id: '1',
+			links: [
+				{
+					name: 'Linkedin',
+					link: 'https://www.linkedin.com',
+				},
+				{
+					name: 'Dribbble',
+					link: 'https://www.dribbble.com',
+				},
+				{
+					name: 'Trello',
+					link: 'https://www.trello.com',
+				},
+				{
+					name: 'Slack',
+					link: 'https://www.slack.com',
+				},
+			],
+		},
+	],
+
 	// Second Links Container
 	secondListsContainer: [
 		{
