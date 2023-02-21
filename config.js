@@ -27,7 +27,7 @@ const CONFIG = {
 
 	// Weather
 	weatherKey: 'ed984e7ed3a6554b4521e86349f99c86', // Write here your API Key
-	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -127,37 +127,25 @@ const CONFIG = {
 			link: 'https://figma.com/',
 		},
 	],
+	thirdButtonsContainer: [
+		{
+			id: '1',
+			name: 'Schoology',
+			icon: 'school',
+			link: 'https://fuhsd.schoology.org',
+		}
+	
+	
+	
+	
+	]
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
 	// ┴─┘┴└─┘ ┴ └─┘
 
 	// First Links Container
-	firstlistsContainer: [
-		{
-			icon: 'coffee',
-			id: '1',
-			links: [
-				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
-				},
-				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
-				},
-			],
-		},
-	],
-
+	
 	// Second Links Container
 	secondListsContainer: [
 		{
