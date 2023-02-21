@@ -116,15 +116,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
+			name: 'Adobe Color',
 			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			link: 'https://color.adobe.com',
 		},
 		{
 			id: '6',
-			name: 'Figma',
+			name: 'Schoology',
 			icon: 'figma',
-			link: 'https://figma.com/',
+			link: 'https://fuhsd.schoology.com/',
 		},
 	],
 
